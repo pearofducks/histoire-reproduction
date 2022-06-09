@@ -4,7 +4,7 @@ specifiers:
   '@fabric-ds/css': ^1.1.3
   '@fabric-ds/vue': ^0.12.0
   '@vitejs/plugin-vue': ^2.3.3
-  histoire: ^0.7.4
+  histoire: 0.7.4
   vite: ^2.9.10
   vue: ^3.2.37
 
@@ -192,13 +192,13 @@ packages:
   /@types/concat-stream/1.6.1:
     resolution: {integrity: sha512-eHE4cQPoj6ngxBZMvVf6Hw7Mh4jMW4U9lpGmS5GBPB9RYxlFg+CHaVN7ErNY4W9XfLIEn20b4VDYaIrbq0q4uA==}
     dependencies:
-      '@types/node': 8.10.66
+      '@types/node': 10.17.60
     dev: false
 
   /@types/form-data/0.0.33:
     resolution: {integrity: sha512-8BSvG1kGm83cyJITQMZSulnl6QV8jqAGreJsc5tPu1Jq0vTSOiY/k24Wx82JRpWwZSqrala6sd5rWi6aNXvqcw==}
     dependencies:
-      '@types/node': 8.10.66
+      '@types/node': 10.17.60
     dev: false
 
   /@types/linkify-it/3.0.2:

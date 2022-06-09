@@ -13,7 +13,7 @@
     "@fabric-ds/css": "^1.1.3",
     "@fabric-ds/vue": "^0.12.0",
     "@vitejs/plugin-vue": "^2.3.3",
-    "histoire": "^0.7.4",
+    "histoire": "0.7.4",
     "vite": "^2.9.10",
     "vue": "^3.2.37"
   }
