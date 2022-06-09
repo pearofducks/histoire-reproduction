@@ -4,7 +4,7 @@ specifiers:
   '@fabric-ds/css': ^1.1.3
   '@fabric-ds/vue': ^0.12.0
   '@vitejs/plugin-vue': ^2.3.3
-  histoire: 0.7.4
+  histoire: 0.7.6
   vite: ^2.9.10
   vue: ^3.2.37
 
@@ -12,7 +12,7 @@ dependencies:
   '@fabric-ds/css': 1.1.3
   '@fabric-ds/vue': 0.12.0
   '@vitejs/plugin-vue': 2.3.3_vite@2.9.10+vue@3.2.37
-  histoire: 0.7.4_vite@2.9.10
+  histoire: 0.7.6_vite@2.9.10
   vite: 2.9.10
   vue: 3.2.37
 
@@ -127,8 +127,8 @@ packages:
       '@floating-ui/core': 0.6.2
     dev: false
 
-  /@histoire/controls/0.7.4_vue@3.2.37:
-    resolution: {integrity: sha512-vrgYAqlQMVtB+HnZkzcomH3zzb+lGDbLYCHMKVDtQb12RO77y08iz/xF+C1X3aQJy+1DfTxHMJfV2wnl+LsMKA==}
+  /@histoire/controls/0.7.6_vue@3.2.37:
+    resolution: {integrity: sha512-YmRJgpFRzaJxFMn1LjJxY+SjJPnx8/lGMHBTStf0OHyONb9+zYYrM5h41X5Ow0XdA75tdZAl9+M9za60I7p+ZA==}
     dependencies:
       '@iconify/vue': 3.2.1_vue@3.2.37
       '@vueuse/core': 8.6.0_vue@3.2.37
@@ -138,22 +138,22 @@ packages:
       - vue
     dev: false
 
-  /@histoire/plugin-vue/0.7.4_histoire@0.7.4+vue@3.2.37:
-    resolution: {integrity: sha512-jIPLQKvnSYysrYz2KgcI0KSVE3XkGBZrKUL4GtDnw9+rdBYh0k/960JoP/sR1qr6ZgCOTm5yGU6H1A0TbvXw0g==}
+  /@histoire/plugin-vue/0.7.6_histoire@0.7.6+vue@3.2.37:
+    resolution: {integrity: sha512-6rguSLVQeoOXjIE0QRrx2miM4Bq9HnErUyaLCOFuv+DwU9PbLkiqJuIBXRxq1+0EAEoFglEgwxc06GlCr/VRdw==}
     peerDependencies:
-      histoire: ^0.7.4
+      histoire: ^0.7.6
       vue: ^3.2.31
     dependencies:
-      '@histoire/controls': 0.7.4_vue@3.2.37
-      '@histoire/shared': 0.7.4
-      histoire: 0.7.4_vite@2.9.10
+      '@histoire/controls': 0.7.6_vue@3.2.37
+      '@histoire/shared': 0.7.6
+      histoire: 0.7.6_vite@2.9.10
       vue: 3.2.37
     transitivePeerDependencies:
       - '@vue/composition-api'
     dev: false
 
-  /@histoire/shared/0.7.4:
-    resolution: {integrity: sha512-F65bIM/n0mbsWpoRzVKqDcR9obba1I+kuu4BeeixksO8Z8ixNhcHuRpKN0TifwiOiq3rhuxQ40v5qaAak40oWg==}
+  /@histoire/shared/0.7.6:
+    resolution: {integrity: sha512-sjnOyLLwrNVnx0Jn4+T5Yy1/n1r7B9gKGP5NlMvai73ehSiqpvHZe+TaMCxotiltjwbBvSqbdmrEqYz+B4cKGA==}
     dev: false
 
   /@iconify/vue/3.2.1_vue@3.2.37:
@@ -192,13 +192,13 @@ packages:
   /@types/concat-stream/1.6.1:
     resolution: {integrity: sha512-eHE4cQPoj6ngxBZMvVf6Hw7Mh4jMW4U9lpGmS5GBPB9RYxlFg+CHaVN7ErNY4W9XfLIEn20b4VDYaIrbq0q4uA==}
     dependencies:
-      '@types/node': 10.17.60
+      '@types/node': 8.10.66
     dev: false
 
   /@types/form-data/0.0.33:
     resolution: {integrity: sha512-8BSvG1kGm83cyJITQMZSulnl6QV8jqAGreJsc5tPu1Jq0vTSOiY/k24Wx82JRpWwZSqrala6sd5rWi6aNXvqcw==}
     dependencies:
-      '@types/node': 10.17.60
+      '@types/node': 8.10.66
     dev: false
 
   /@types/linkify-it/3.0.2:
@@ -956,15 +956,15 @@ packages:
     hasBin: true
     dev: false
 
-  /histoire/0.7.4_vite@2.9.10:
-    resolution: {integrity: sha512-HhlFg61pgo8VH81qZgGYAp2q2dJPTNcnfjglOQM35bSlPsnYaCOlaJgyvWgq+fDwpsPmtdHd8tslpUQS68IvTA==}
+  /histoire/0.7.6_vite@2.9.10:
+    resolution: {integrity: sha512-99DjXlByDgSXzwtuC3JCpIbQmUMXKkBcjGlwO48Q6UKRgV7ZjXtZu1KBze/PVXBfUn6NGZkewUAvT8PVm1fW6g==}
     hasBin: true
     peerDependencies:
       vite: ^2.9.0
     dependencies:
-      '@histoire/controls': 0.7.4_vue@3.2.37
-      '@histoire/plugin-vue': 0.7.4_histoire@0.7.4+vue@3.2.37
-      '@histoire/shared': 0.7.4
+      '@histoire/controls': 0.7.6_vue@3.2.37
+      '@histoire/plugin-vue': 0.7.6_histoire@0.7.6+vue@3.2.37
+      '@histoire/shared': 0.7.6
       '@iconify/vue': 3.2.1_vue@3.2.37
       '@types/markdown-it': 12.2.3
       '@vueuse/core': 8.6.0_vue@3.2.37
